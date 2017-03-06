@@ -1,20 +1,20 @@
 $( document ).ready(function(){
-  var randomTarget = Math.floor(Math.random()*50)
+  var randomTarget = Math.floor(Math.random()*50 + 1)
   // Selects a randomTarget number to be shown at the start of the game
   $("#goalNumber").html(randomTarget);
 // Appending randomTarget number to the randomTargetNumber id in the html doc
 
-  var randomRed = Math.floor(Math.random()*10);
-  var randomBlue = Math.floor(Math.random()*10);
-  var randomYellow = Math.floor(Math.random()*10);
-  var randomGreen = Math.floor(Math.random()*10);
+  var randomRed = Math.floor(Math.random()*10 + 1);
+  var randomBlue = Math.floor(Math.random()*10 + 1);
+  var randomYellow = Math.floor(Math.random()*10 + 1);
+  var randomGreen = Math.floor(Math.random()*10 + 1);
 // Setting up random numbers for each jewel
 
-console.log(randomTarget);
-console.log(randomRed);	
-console.log(randomBlue);	
-console.log(randomYellow);	
-console.log(randomGreen);		
+// console.log(randomTarget);
+// console.log(randomRed);	
+// console.log(randomBlue);	
+// console.log(randomYellow);	
+// console.log(randomGreen);		
 
 
   var userTotal= 0; 
