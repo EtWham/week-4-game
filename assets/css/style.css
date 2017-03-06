@@ -1,0 +1,110 @@
+body {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+text-align:left;
+font-size:16px;
+background: url("../images/background.jpg");
+margin-left: 20px;
+padding-left: 25px;
+}
+
+#gameTitle {
+background-color: orange;
+font-size: 40px;
+padding: 15px;
+margin-top: 15px;
+margin-bottom: 10px;
+
+}
+
+#crystalsIntro {
+background-color: beige;
+padding-bottom: 80px;
+
+}
+
+#blue {
+color: blue;
+}
+
+#green {
+color: green;
+}
+
+#red {
+color: red;
+}
+
+#yellow {
+color: yellow;
+}
+
+#goalNumber {
+font-size: 40px;
+background-color: lightgreen;
+width: 300px;
+height: 150px;
+margin-top: 10px;
+padding-top: 10px;
+}
+
+#winLossCount {
+background-color: lightblue;
+padding-top: 40px;
+margin: 10px;
+height: 150px;
+width: 115px;
+}
+/*not sure how I got this to work but with these classes and ids I can get the crystals on the same line with padding between them*/
+/*#container {
+overflow: hidden;
+/*border: 3px double #000;*/
+/*white-space: nowrap*/
+}
+.sidebar {
+float: left;
+margin-bottom: 20px;
+background: #fff;
+border: 1px solid #ddd;
+padding-bottom: 20px;
+margin-bottom: 15px;
+line-height: 22px;
+}*/
+
+.crystalButtons {
+height: 80px;
+width: 80px;
+margin: 10px;
+clear: both;
+float: left;
+
+}
+.gems {
+height: 60px;
+width: 60px;
+margin: 10px;
+float: left;
+}
+
+#total {
+background-color: teal;
+width: 300px;
+padding-right: 30px;
+}
+
+#totalScore {
+background-color: teal;
+font-size: 40px;
+width: 300px;
+height: 150px;
+margin-top: 10px;
+padding-top: 10px;
+}
+
+
+#userNumber {
+background-color: teal;
+width: 300px;
+height: 150px;
+margin: 10px;
+}
